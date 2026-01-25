@@ -1,0 +1,61 @@
+<main class="min-h-screen bg-black text-white pt-6 pb-40 px-6 animate-fade-in">
+  <div class="max-w-5xl mx-auto">
+    
+    <nav class="mb-8">
+      <a routerLink="/" class="text-zinc-500 hover:text-purple-400 text-sm font-bold flex items-center gap-2 transition-all group">
+        <svg class="w-4 h-4 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        VOLVER AL INICIO
+      </a>
+    </nav>
+
+    <div class="grid lg:grid-cols-3 gap-12">
+      
+      <div class="lg:col-span-1 space-y-10">
+        <div>
+          <h1 class="text-4xl font-bold tracking-tighter mb-4">TalentHub <span class="text-purple-500">México</span></h1>
+          <p class="text-zinc-400 leading-relaxed text-sm">
+            Plataforma de gestión de capital humano con enfoque en automatización de flujos de trabajo con Django y Supabase.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          <h3 class="text-xs font-bold tracking-[0.2em] text-purple-500 uppercase">Tecnologías Core</h3>
+          <ul class="space-y-2">
+            <li class="flex items-center gap-3 text-zinc-300 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-purple-500"></span> Python / Django (Backend)</li>
+            <li class="flex items-center gap-3 text-zinc-300 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-purple-500"></span> Supabase (PostgreSQL)</li>
+            <li class="flex items-center gap-3 text-zinc-300 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-purple-500"></span> TypeScript / Angular</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="lg:col-span-2 space-y-8">
+        
+        <div class="rounded-[2rem] overflow-hidden border border-zinc-800 bg-zinc-950 shadow-2xl relative">
+          <swiper-container navigation="true" pagination="true" autoplay-delay="4000" loop="true" class="w-full aspect-video bg-[#0a0a0a]">
+            <swiper-slide *ngFor="let img of images" class="flex items-center justify-center p-6">
+              <img [src]="img" class="max-w-full max-h-full object-contain rounded-2xl shadow-lg">
+            </swiper-slide>
+          </swiper-container>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-4"> <div class="p-5 bg-zinc-900/50 border border-purple-500/20 rounded-2xl hover:border-purple-500/50 transition-all">
+            <h4 class="text-purple-400 font-bold mb-2 text-xs uppercase tracking-wider">Reto Técnico</h4>
+            <p class="text-zinc-400 text-[11px] leading-snug italic">"Sincronización en tiempo real de vacantes y perfiles."</p>
+          </div>
+
+          <div class="p-5 bg-zinc-900/30 border border-zinc-800 rounded-2xl hover:border-purple-500/30 transition-colors">
+            <h4 class="text-white font-bold mb-2 text-xs uppercase tracking-wider">Procesos</h4>
+            <p class="text-zinc-500 text-[11px] leading-relaxed">Gestión de estados mediante lógica avanzada.</p>
+          </div>
+
+          <div class="p-5 bg-zinc-900/30 border border-zinc-800 rounded-2xl hover:border-purple-500/30 transition-colors">
+            <h4 class="text-white font-bold mb-2 text-xs uppercase tracking-wider">Persistencia</h4>
+            <p class="text-zinc-500 text-[11px] leading-relaxed">Base de datos escalable y segura con Supabase.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>

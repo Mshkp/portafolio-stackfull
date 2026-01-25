@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animación de entrada para que no cargue de golpe */
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,10 @@
+swiper-container {
+  --swiper-navigation-color: #a855f7; /* Purple-500 */
+  --swiper-pagination-color: #a855f7;
+  --swiper-navigation-size: 24px;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+}

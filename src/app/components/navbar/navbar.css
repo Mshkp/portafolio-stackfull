@@ -1,0 +1,13 @@
+/* Forzamos que los iconos no se coman la pantalla */
+svg {
+  width: 24px !important;
+  height: 24px !important;
+  display: inline-block;
+}
+
+/* Aseguramos que la barra sea una barra y no una lista gigante */
+nav div {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 2rem;
+}
