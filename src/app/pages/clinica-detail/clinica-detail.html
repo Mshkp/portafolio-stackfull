@@ -1,18 +1,16 @@
-<main class="min-h-screen bg-black text-white pt-10 pb-40 px-6 animate-fade-in relative overflow-x-hidden">
+<main class="min-h-screen bg-black text-white pt-6 pb-40 px-6 animate-fade-in py-20">
   <div class="max-w-5xl mx-auto">
-    
-    <nav class="mb-12">
+    <nav class="mb-8">
       <a routerLink="/" class="text-zinc-500 hover:text-emerald-400 text-sm font-bold flex items-center gap-2 transition-all group">
         <svg class="w-4 h-4 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         VOLVER AL INICIO
       </a>
     </nav>
 
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
-      
+    <div class="grid lg:grid-cols-3 gap-12">
       <div class="lg:col-span-1 space-y-10">
         <div>
-          <h1 class="text-4xl md:text-5xl font-bold tracking-tighter mb-4 leading-tight">Clínica <span class="text-emerald-500">Virtual</span></h1>
+          <h1 class="text-4xl font-bold tracking-tighter mb-4">Clínica <span class="text-emerald-500">Virtual</span></h1>
           <p class="text-zinc-400 leading-relaxed text-sm">
             Plataforma tecnológica para conectar pacientes con especialistas mediante consultas en línea y expedientes médicos digitales.
           </p>
@@ -20,7 +18,7 @@
 
         <div class="space-y-4">
           <h3 class="text-xs font-bold tracking-[0.2em] text-emerald-500 uppercase">Stack del Proyecto</h3>
-          <ul class="space-y-3">
+          <ul class="space-y-2">
             <li class="flex items-center gap-3 text-zinc-300 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_8px_#10b981]"></span> HTML / CSS / JavaScript</li>
             <li class="flex items-center gap-3 text-zinc-300 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_8px_#10b981]"></span> PHP / MySQL Workbench</li>
             <li class="flex items-center gap-3 text-zinc-300 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_8px_#10b981]"></span> XAMPP Server</li>
@@ -29,7 +27,6 @@
       </div>
 
       <div class="lg:col-span-2 space-y-8">
-        
         <div class="rounded-[2rem] overflow-hidden border border-zinc-800 bg-zinc-950 shadow-2xl relative">
           <swiper-container navigation="true" pagination="true" autoplay-delay="4000" loop="true" class="w-full aspect-video bg-[#050505]">
             <swiper-slide *ngFor="let img of images" class="flex items-center justify-center p-8">
@@ -38,31 +35,24 @@
           </swiper-container>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="grid md:grid-cols-3 gap-4">
             <div class="p-5 bg-zinc-900/30 border border-zinc-800 rounded-2xl flex flex-col items-center text-center group hover:border-emerald-700 transition-all">
-                <svg class="w-5 h-5 text-zinc-500 mb-2 group-hover:text-emerald-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-                </svg>
+                <svg class="w-5 h-5 text-zinc-500 mb-2 group-hover:text-emerald-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
                 <h4 class="text-white font-bold text-[10px] uppercase tracking-widest mb-2">Expedientes</h4>
-                <p class="text-zinc-500 text-[11px]">Gestión digital de historias clínicas.</p>
+                <p class="text-zinc-500 text-[11px]">Gestión digital de historias clínicas eliminando el uso de registros en papel.</p>
             </div>
-
             <div class="p-5 bg-zinc-900/30 border border-zinc-800 rounded-2xl flex flex-col items-center text-center group hover:border-emerald-700 transition-all">
-                <svg class="w-5 h-5 text-zinc-500 mb-2 group-hover:text-emerald-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
-                </svg>
+                <svg class="w-5 h-5 text-zinc-500 mb-2 group-hover:text-emerald-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
                 <h4 class="text-white font-bold text-[10px] uppercase tracking-widest mb-2">Agendamiento</h4>
-                <p class="text-zinc-500 text-[11px]">Sincronización de citas en tiempo real.</p>
+                <p class="text-zinc-500 text-[11px]">Sincronización de citas en tiempo real según disponibilidad.</p>
             </div> 
-
-            <div class="p-5 bg-zinc-900/30 border border-zinc-800 rounded-2xl flex flex-col items-center text-center group hover:border-emerald-700 transition-all">
-              <svg class="w-5 h-5 text-zinc-500 mb-2 group-hover:text-emerald-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-              <h4 class="text-white font-bold text-[10px] uppercase tracking-widest mb-2">Seguridad</h4>
-              <p class="text-zinc-500 text-[11px]">Protección de historias clínicas cifradas.</p>
-            </div>
+          <div class="p-5 bg-zinc-900/30 border border-zinc-800 rounded-2xl flex flex-col items-center text-center group hover:border-emerald-700 transition-all">
+            <svg class="w-5 h-5 text-zinc-500 mb-2 group-hover:text-emerald-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            <h4 class="text-white font-bold text-[10px] uppercase tracking-widest mb-2">Seguridad</h4>
+            <p class="text-zinc-500 text-[11px]">Protección de historias clínicas con cifrado y autenticación.</p>
+          </div>
         </div>
       </div>
-
     </div>
   </div>
 </main>
