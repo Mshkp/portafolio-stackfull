@@ -1,59 +1,32 @@
-# StackFull
+# 🚀 StackFull | Yeudiel González - Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.1.
+Bienvenido al repositorio de **stackfull.space**, mi portafolio profesional donde demuestro mi enfoque como **Ingeniero Full-Stack Jr**. Este proyecto está diseñado para ser una Single Page Application (SPA) de alto rendimiento, minimalista y totalmente responsiva.
 
-## Development server
+## 🛠️ Stack Tecnológico
 
-To start a local development server, run:
+Este portafolio fue construido utilizando el siguiente ecosistema:
 
-```bash
-ng serve
-```
+* **Frontend:** [Angular](https://angular.dev/) (v17+) & [TypeScript](https://www.typescriptlang.org/).
+* **Estilos:** [Tailwind CSS](https://tailwindcss.com/) (Diseño basado en Glassmorphism).
+* **Backend Integration:** [Formspree](https://formspree.io/) para la gestión de mensajería.
+* **Deployment:** [Vercel](https://vercel.com/) / [Netlify].
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## ✨ Características Principales
 
-## Code scaffolding
+* **Arquitectura Modular:** Uso de componentes Standalone para una estructura limpia y escalable.
+* **UI/UX Premium:** Animaciones fluidas, paleta de colores coherente (Blanco, Morado, Cian) y diseño simétrico.
+* **Sección Sobre Mí:** Visualización de mi arsenal técnico y metodología de trabajo.
+* **Formulario Funcional:** Conexión directa a través de API para recepción de prospectos.
+* **Zero Scroll Experience:** Optimizado para ajustarse perfectamente al viewport del usuario.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 📂 Estructura del Proyecto
 
-```bash
-ng generate component component-name
-```
+* `src/app/pages/`: Contiene las vistas principales (Home, Sobre Mí, Contacto).
+* `src/assets/`: Almacén de recursos estáticos como el CV y logos.
+* `angular.json`: Configuración del build y activos del proyecto.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🚀 Instalación y Desarrollo Local
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Clona el repositorio:
+   ```bash
+   git clone [https://github.com/Mshkp/portfolio-stackfull.git](https://github.com/Mshkp/portfolio-stackfull.git)
