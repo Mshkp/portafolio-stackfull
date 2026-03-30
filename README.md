@@ -29,4 +29,4 @@ Este portafolio fue construido utilizando el siguiente ecosistema:
 
 1. Clona el repositorio:
    ```bash
-   git clone [https://github.com/Mshkp/portfolio-stackfull.git](https://github.com/Mshkp/portfolio-stackfull.git)
+   git clone [https://github.com/tu-usuario/portfolio-stackfull.git](https://github.com/tu-usuario/portfolio-stackfull.git)
